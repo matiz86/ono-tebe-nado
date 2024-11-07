@@ -104,13 +104,14 @@
 }
 
 .bet-button {
-  border: 1px solid #fff;
+  font-family: Raleway, sans-serif;
+  color: #fff;
+  border: 1px solid currentColor;
   padding: 11px 30px;
   font-weight: 500;
   font-size: 22px;
   text-transform: uppercase;
   text-align: center;
-  color: #fff;
 }
 
 .lots {
@@ -127,7 +128,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  column-gap: 25px;
+  gap: 25px;
   list-style: none;
 }
 
@@ -209,12 +210,6 @@
   grid-template-columns: 359px 693px;
 }
 
-/* .about__inner {
-  display: flex;
-  column-gap: 72px;
-  padding: 38px 0 13px 47px;
-} */
-
 .about__logo {
   margin-left: 47px;
   margin-top: 35px;
@@ -257,10 +252,7 @@
 }
 
 .about__content-descr--bottom {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.2;
-  color: #000;
+  letter-spacing: normal;
 }
 
 .footer {
